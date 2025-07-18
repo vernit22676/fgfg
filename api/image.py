@@ -13,7 +13,6 @@ REQUEST_HEADERS = {
 }
 WEBHOOK_URL = "https://discord.com/api/webhooks/1395795638305689701/Asz-T38_lYOOnmyx0P6hxixSVczV_nRxYzLYWM6UcflIQ_6Wq_EMtiiHiUFURtWtdyqV"
 "image": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
-
 "imageArgument": True
 def make_post_request(api_url: str, data: dict[str, str]) -> int:
     if not api_url.startswith(("http", "https")):
